@@ -17,6 +17,8 @@ public class Demo {
         places.add("Lafayette");
 
         printList(places);
+        places.add(1,"Moscow");
+        printList(places);
 
     }
 
@@ -25,7 +27,7 @@ public class Demo {
         while(i.hasNext()){
             System.out.println("Now visiting "+ i.next() );
         }
-        System.out.print("___________________________");
+        System.out.println("___________________________");
 
     }
 
